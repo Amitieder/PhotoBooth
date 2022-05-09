@@ -1,0 +1,56 @@
+.App {
+  color: white;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-family: Trebuchet MS;
+}
+
+.content-section {
+  display: flex;
+  height: 100vh;
+}
+
+.upload-photo-section {
+  background-color: #0C0E38;
+  flex: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.all-photos-section {
+  flex: 1;
+  background-image: linear-gradient(to right, #3656c2 0%, #5242ca 51%, #8854d1 100%);
+  display: flex;
+}
+
+.header-wrapper {
+  background-color: #070822;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body {
+  font-family: Roboto;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,17 @@
+.small-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 160px;
+}
+
+.small-image{
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+.all-photos-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,84 @@
+.button {
+    width: 200px;
+    height: 30px;
+    margin-top: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-family: Trebuchet MS;
+    background-image: linear-gradient(to right, #1675ea 0%, #8a74eb 51%, #c77ee6 100%);
+}
+
+.disabledBtn {
+    width: 200px;
+    height: 30px;
+    margin-top: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-family: Trebuchet MS;
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: rgb(173, 173, 173);
+  background-image: none;
+}
+  
+::-webkit-input-placeholder {
+    color: white;
+    font-weight: 100;
+}
+  
+.name-input {
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 25px;
+    width: 190px;
+    color:white;
+    font-family: Trebuchet MS;
+    padding-left: 10px;
+    background-color: #44416a;
+}
+
+.upload-lable {
+    cursor: pointer;
+}
+  
+#img {
+    width: 200px;
+    height: 250px;
+}
+
+.upload-photo-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.image-wrapper {
+    width: 200px;
+    height: 250px;
+    padding: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+  
+.image-upload-wrapper {
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;  
+    cursor: pointer;  
+    background-color: cyan;
+    color:white;
+}
+  
+.upload-input {
+    display: none;
+}
